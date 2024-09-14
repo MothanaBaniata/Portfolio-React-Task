@@ -1,5 +1,5 @@
-// import logo from './logo.png';
-// import myImage from './path/to/image.jpg';
+import logo from '../images/logo.png';
+import section1 from '../images/section1.jpg';
 
 export default function Nav() {
   return (
@@ -10,7 +10,7 @@ export default function Nav() {
         <div className="navbar">
           <nav>
             <a id="logo" href="">
-              <img src={require("./logo.png")} />
+              <img src={logo} alt='logo'/>
               MothanaBaniata
             </a>
             <ul>
@@ -54,7 +54,7 @@ export default function Nav() {
               </a>
             </div>
           </div>
-          <img src="section1.jpg" alt="Front-end-wallpaper" />
+          <img src={section1} alt="Front-end-wallpaper" />
         </div>
       </header>
       {/* header end */}

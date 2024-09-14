@@ -1,3 +1,8 @@
+import myImg from '../images/myimage.png';
+import img2 from '../images/skills.png';
+import contact from '../images/contact.jpg';
+
+
 export default function Main() {
   return (
 
@@ -7,7 +12,7 @@ export default function Main() {
         <div className="container">
           <div className="about-content">
             <div className="col-1">
-              <img src="myimage.png" />
+              <img src={myImg} />
             </div>
             <div className="col-2">
               <h3 id="text-1">Hello, I'm Mothana!</h3>
@@ -61,7 +66,7 @@ export default function Main() {
                 <i className="fa-brands fa-html5" id="item-html" />
               </div>
               <div className="item">
-                <img src="skills.png" id="item-img" />
+                <img src={img2} id="item-img" />
               </div>
               <div className="item">
                 {/* <p>CSS</p> */}
@@ -88,7 +93,7 @@ export default function Main() {
       <section id="contact">
         <div className="contact-container">
           <div className="contact-image">
-            <img src="contact.jpg" alt="" />
+            <img src={contact} alt="" />
           </div>
           <div className="contact-form">
             <h2>Contact Me</h2>
